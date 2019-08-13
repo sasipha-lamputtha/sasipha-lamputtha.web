@@ -13,20 +13,35 @@ html{
 	padding-left: 100px;
 	}
 	#Profile {
-	padding-top: 30px;
+
+	border-radius:30%;
+	padding-top: 50px;
+	padding-left: 20px;
 	display: block;
 	margin: 0 auto;
-	}	
-div{
-	padding-top: 300px;
-	padding-left: 60px;
-	font-size: 30px;
+	border:solid 4px;
+  	border-bottom-color:#84CEE8;
+ 	border-left-color:#84CEE8;
+  	border-right-color:#84CEE8;
+  	border-top-color:#84CEE8;
+  	background-color: #84CEE8;
+ 
+
 	}
+	#contact{
+	font-size: 40px;
+	padding-top: 100px;
+	padding-left: 100px;
+	}	
+
 li{
 	display: inline;
 	text-align: right;
 	}
-ul {
+#navbar {
+	position: fixed;
+    top: 0px;
+    width: 100%;
 	list-style-type: none;
 	margin: 0;
 	padding: 30;
@@ -48,11 +63,76 @@ li a {
 		padding-top: 50px;
 		padding-left: 50px;
 	}
-	#interested{
-		border-style: solid;
-		border-color: #33CCFF;
-		background-color: #33CCFF;
-		width: 200px;
-		text-align: center;
+#intable{
+	padding-top: 250px;
 
+}
+	#interested{
+		border-collapse: collapse;
+		width: 100%;
+		text-align: center;
+		float: center;
+	}
+	#interested td, #interested th {
+		text-align: center;
+		font-size: 25px;
+	}
+	#interested th{
+		background-color: #84CEE8;
+		font-size: 30px;
+		width: 60%;
+	}
+	img{
+		padding-top: 30px;
+	}
+	#contacttable{
+		margin-left: 200px;
+		border-collapse: collapse;
+	
+	}
+	#contacttable td, #contacttable th {
+		text-align: left;
+		font-size: 30px;
+
+	}
+	#contacttable td a {
+		color: black;
+		
+	}
+
+	form {
+
+		margin: 0 auto;
+		width: 400px;
+		padding: 1em;
+		border: 1px solid #84CEE8;
+		background-color:#84CEE8; 
+		border-radius: 1em;
+	}
+	form div + div{
+		margin-top: 1em;
+	}
+	label {
+		display: inline-block;
+		width: 90px;
+		text-align: right;
+	}
+	input, textarea{
+		font:20px ;
+		width: 300px;
+		box-sizing: border-box;
+		border: 1px solid #84CEE8;
+
+	} 	
+	textarea{
+		vertical-align: top;
+		height: 10em;
+	}
+	.button{
+		padding-left: 90px;
+		
+	}
+	button{
+		margin-left: .5em;
+		font-family: 'Comic Sans MS', sans-serif;
 	}
